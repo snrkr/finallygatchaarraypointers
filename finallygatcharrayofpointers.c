@@ -21,13 +21,13 @@ int main()
 }
 
 /*
-    char * const pc1 = &a; /* You can't make pc1 point to anything else */
-const char * pc2 = &a; /* You can't dereference pc2 to write. */
+char * const pc1 = &a; // You can't make pc1 point to anything else
+const char * pc2 = &a; // You can't dereference pc2 to write.
 
-*pc1 = 'c' /* Legal. */
-*pc2 = 'c' /* Illegal. */
+*pc1 = 'c' // Legal.
+*pc2 = 'c' // Illegal.
 
-pc1 = &b; /* Illegal, pc1 is a constant pointer. */
-pc2 = &b; /* Legal, pc2 itself is not constant. */
+pc1 = &b; // Illegal, pc1 is a constant pointer.
+pc2 = &b; // Legal, pc2 itself is not constant.
 
-/*
+*/
