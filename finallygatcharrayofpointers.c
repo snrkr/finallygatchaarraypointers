@@ -3,7 +3,7 @@
 
 int main()
 {
-    char *t[2];   //********  //array of pointers// so there are two pointers t[0] and t[1]   ***********//
+    const char *t[2];   //********  //array of pointers// so there are two pointers t[0] and t[1]   ***********//
     char arr[] = "ewwerewwrwrwerwerwer";
     t[0] = arr;
     
